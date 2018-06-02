@@ -2,7 +2,7 @@ let MongoDBModule = function () {
     var fs = require('fs');
 
     var mongoose = require('mongoose');
-    mongoose.connect('mongodb://localhost:27017');
+    mongoose.connect('mongodb://M4rk:0987@ds147799.mlab.com:47799/meme-place');
     //CONNECTS TO USERS DB mongodb://M4rk:0987@ds147799.mlab.com:47799/meme-place
     //localhost:27017
     //M4rk:0987@ds147799.mlab.com:47799
